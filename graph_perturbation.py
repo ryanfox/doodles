@@ -64,4 +64,4 @@ for i in range(step_count):
     plt.clf()
 
 # to generate video
-# ffmpeg -i graph/graph%03d.png -framerate 30 output.mp4
+# ffmpeg -i graph/graph%03d.png -framerate 30 -vf format=yuv420p output.mp4
